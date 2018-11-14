@@ -37,3 +37,12 @@ button {
 	border-bottom: 1px solid #ccc;
 	background: #f5f5f5;
 }
+
+.text-on {
+	resize: none;
+}
+
+.text-off {
+	resize: none;
+	overflow: hidden;
+}

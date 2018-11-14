@@ -1,14 +1,16 @@
 window.onload = function () {
 	document.getElementById("enable").onclick = function () {
 		enableScroll();
-		document.getElementById("status").innerHTML = "enabled";
+		document.getElementById("status").innerHTML = "Скролл включённ";
 		document.getElementById("status").className = "enabled";
+		document.getElementById("text").className = "text-on"
 	};
 
 	document.getElementById("disable").onclick = function () {
 		disableScroll();
-		document.getElementById("status").innerHTML = "disabled";
+		document.getElementById("status").innerHTML = "Скролл отключённ";
 		document.getElementById("status").className = "disabled";
+		document.getElementById("text").className = "text-off"
 	};
 
 	var keys = {
