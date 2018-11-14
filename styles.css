@@ -1,0 +1,39 @@
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+p {
+	margin: 20px 0;
+}
+
+button {
+	padding: 5px 15px;
+	margin-right: 10px;
+	border-radius: 10px;
+	border: 1px solid rgb(54, 71, 75);
+}
+
+#text {
+	width: 400px;
+	margin: 60px 20px;
+}
+
+.enabled {
+	color: green;
+}
+
+.disabled {
+	color: red;
+}
+
+#menu {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	padding: 10px 20px;	
+	background: #fff;
+	border-bottom: 1px solid #ccc;
+	background: #f5f5f5;
+}
